@@ -47,6 +47,7 @@ end
 
 def sum_array(arr)
   arr.inject(0) do |r, e|
+    r + e
   end
 end
 def add_s(arr)
