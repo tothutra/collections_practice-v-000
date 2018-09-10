@@ -1,1 +1,46 @@
+def sort_array_asc(array)
+  array.sort
+end
 
+def sort_array_desc(array)
+  array.sort do |a, b|
+    b <=> a
+  end
+end
+
+def sort_array_char_count(array)
+  array.sort do |a, b|
+    a.size <=> b.size
+  end
+end
+
+def swap_elements(array)
+  new_second_elem = array[1]
+  new_third_item = array[2]
+
+  array[1] = new_second_elem
+  array[2] = new_third_item
+  return array
+end
+
+def reverse_array(array)
+  array.reverse
+end
+
+def kesha_maker(arr)
+  arr.collect do |i|
+    new_word = i.split("")
+    new_word[2] = "$"
+    new_word.join
+  end
+end
+
+def find_a(arr)
+
+end
+def sum_array
+
+end
+def add_s
+
+end
