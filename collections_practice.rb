@@ -46,11 +46,8 @@ def find_a(arr)
 end
 
 def sum_array(arr)
-  sum = 0
-  arr.each do |e|
-    sum += e
+  arr.inject(0) do |r, e|
   end
-  sum
 end
 def add_s(arr)
   arr.collect do |e|
