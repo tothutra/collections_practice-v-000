@@ -36,12 +36,13 @@ def kesha_maker(arr)
 end
 
 def find_a(arr)
-  array.collect do |word|
+  arr.collect do |word|
     if word.split("")[0] == "a"
       return word
     end
   end
 end
+
 def sum_array
 
 end
