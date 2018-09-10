@@ -36,7 +36,8 @@ def kesha_maker(arr)
 end
 
 def find_a(arr)
-
+  new_array = []
+  return new_array
 end
 def sum_array
 
