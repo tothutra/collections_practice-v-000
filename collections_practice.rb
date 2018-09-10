@@ -52,6 +52,7 @@ def sum_array(arr)
   end
   sum
 end
-def add_s
-
+def add_s(arr)
+  arr.collect do |e|
+  end
 end
