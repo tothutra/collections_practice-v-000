@@ -36,7 +36,7 @@ def kesha_maker(arr)
 end
 
 def find_a(arr)
-  arr.collect do |word|
+  arr.map do |word|
     if word.split("")[0] == "a"
       return word
     end
