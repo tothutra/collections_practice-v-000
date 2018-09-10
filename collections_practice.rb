@@ -51,6 +51,11 @@ def sum_array(arr)
   end
 end
 def add_s(arr)
-  arr.collect do |e|
+  arr.each_with_index.collect do |e, i|
+    if i == 2
+      e
+    else
+      e+"s"
+    end
   end
 end
