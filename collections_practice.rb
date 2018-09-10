@@ -37,11 +37,12 @@ end
 
 def find_a(arr)
   new_array = []
-  arr.map do |word|
+  arr.each_with_index do |word|
     if word.split("")[0] == "a"
-      return word
+      new_array << word
     end
   end
+  new_array
 end
 
 def sum_array
